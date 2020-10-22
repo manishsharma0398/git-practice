@@ -1,4 +1,5 @@
 add single file - git add filename_with_extension
 add all files  - git add .
 shows the status of all files in current project - git status
-g
+
+commit - git commit -m "message to commit" 
