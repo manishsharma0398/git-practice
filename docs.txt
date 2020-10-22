@@ -3,3 +3,6 @@ add all files  - git add .
 shows the status of all files in current project - git status
 
 commit - git commit -m "message to commit" 
+show all info about commits - git log
+
+go to a commit point - git checkout commit_id (get commit id from git log)
