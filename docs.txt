@@ -6,3 +6,22 @@ commit - git commit -m "message to commit"
 show all info about commits - git log
 
 go to a commit point - git checkout commit_id (get commit id from git log)
+
+
+
+add new repo and add to project and deploy to github pages
+	git remote add origin git_repo_url
+	npm add gh-pages
+	in packages json:
+		"homepage": "https://github_username.github.io/repo_name_donot_include_.git",
+		in scripts add:
+			"predeploy": "npm run build",
+    			"deploy": "gh-pages -d build"
+    			
+    	then run: npm run deploy
+    		   git add -A
+    		   git commit -m "message"
+    		   git push origin master
+    		   
+    		   
+    		   
